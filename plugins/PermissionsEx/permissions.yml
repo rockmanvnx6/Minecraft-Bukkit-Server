@@ -50,7 +50,7 @@ groups:
     - essentials.worth
     - modifyworld.*
     options:
-      prefix: '&8[CheapSlut]&8'
+      prefix: '&8[CheapSlut]&8 '
       default: true
       rank: '1000'
       message-format: '&8[CheapSlut] %player&7: %message'
@@ -67,7 +67,7 @@ groups:
     - essentials.fly
     - essentials.gamemode
     options:
-      prefix: '&a[Slut]&f'
+      prefix: '&a[Slut]&f '
       default: false
       rank: '800'
       message-format: '&a[Slut]&f %player&f: %message'
@@ -80,7 +80,7 @@ groups:
     - essentials.fly
     - essentials.god
     options:
-      prefix: '&4[&6&lStripper&r&4]&6'
+      prefix: '&4[&6&lStripper&r&4]&6 '
       rank: '500'
       message-format: '&4[&6Stripper&r&4]&6 %player&f: %message'
   VIP3:
@@ -93,7 +93,7 @@ groups:
     - essentials.*
     - plotme.*
     options:
-      prefix: '&5[&b&lInstaThot&r&5]&d'
+      prefix: '&5[&b&lInstaThot&r&5]&d '
       rank: '300'
       message-format: '&5[&b&lInstaThot&r&5]&d %player&f: %message'
   VIP4:
@@ -106,7 +106,7 @@ groups:
     - essentials.*
     - plotme.*
     options:
-      prefix: '&4[&6&lMo&bdel&r&4]&3&l'
+      prefix: '&4[&6&lMo&bdel&r&4]&3&l '
       rank: '200'
       message-format: '&4[&6&lMo&bdel&r&4]&3&l %player&e: %message'
   Admin:
@@ -139,7 +139,7 @@ groups:
     - essentials.tpaccept
     - essentials.tpdeny
     options:
-      prefix: '&9[CertifiedSlut]&f'
+      prefix: '&9[CertifiedSlut]&f '
       rank: '600'
       message-format: '&9[CertifiedSlut]&f %player: %message'
 schema-version: 1
