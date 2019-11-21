@@ -1,7 +1,8 @@
 lastAccountName: MythTrust
 timestamps:
-  login: 1574330028093
+  login: 1574332728449
   lastteleport: 1574320030557
+  logout: 1574332732585
 ipAddress: 203.220.56.213
 homes:
   home:
@@ -18,3 +19,11 @@ lastlocation:
   z: -11.992768444869826
   yaw: -53.100075
   pitch: 17.549984
+afk: false
+logoutlocation:
+  world: world
+  x: -9.788520911181104
+  y: 79.0
+  z: -70.49755400999346
+  yaw: -96.093605
+  pitch: 28.950006
