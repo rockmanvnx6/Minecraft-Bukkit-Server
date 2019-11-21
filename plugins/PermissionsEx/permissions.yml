@@ -1,0 +1,161 @@
+groups:
+  Default:
+    permissions:
+    - chatex.allowchat
+    - essentials.afk
+    - essentials.back
+    - essentials.back.ondeath
+    - essentials.balance
+    - essentials.balance.others
+    - essentials.balancetop
+    - essentials.clearinventory
+    - essentials.chat.shout
+    - essentials.chat.question
+    - essentials.compass
+    - essentials.creativegates.use
+    - essentials.depth
+    - essentials.home
+    - essentials.spawn
+    - essentials.help
+    - essentials.who
+    - essentials.ignore
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.me
+    - essentials.msg
+    - essentials.pay
+    - essentials.ping
+    - essentials.powertool
+    - essentials.protect
+    - essentials.sethome
+    - essentials.sethome.multiple
+    - essentials.signs.use.*
+    - essentials.signs.create.disposal
+    - essentials.signs.create.mail
+    - essentials.signs.create.protection
+    - essentials.signs.create.trade
+    - essentials.signs.break.disposal
+    - essentials.signs.break.mail
+    - essentials.signs.break.protection
+    - essentials.signs.break.trade
+    - essentials.suicide
+    - essentials.time
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.tptoggle
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.worth
+    - modifyworld.*
+    options:
+      prefix: '&8[CheapSlut]&8'
+      default: true
+      rank: '1000'
+      message-format: '&8[CheapSlut] %player&7: %message'
+    worlds:
+      '&8[CheapSlut]&8%player&7:%message':
+        options:
+          message: formal
+  Member:
+    inheritance:
+    - Default
+    permissions:
+    - chatex.allowchat
+    - worldedit.*
+    - essentials.fly
+    - essentials.gamemode
+    options:
+      prefix: '&a[Slut]&f'
+      default: false
+      rank: '800'
+      message-format: '&a[Slut]&f %player&f: %message'
+  VIP2:
+    inheritance:
+    - VIP1
+    permissions:
+    - chatex.allowchat
+    - modifyworld.*
+    - essentials.fly
+    - essentials.god
+    options:
+      prefix: '&4[&6&lStripper&r&4]&6'
+      rank: '500'
+      message-format: '&4[&6Stripper&r&4]&6 %player&f: %message'
+  VIP3:
+    inheritance:
+    - VIP2
+    permissions:
+    - chatex.allowchat
+    - permissions.*
+    - worldedit.*
+    - essentials.*
+    - plotme.*
+    options:
+      prefix: '&5[&b&lInstaThot&r&5]&d'
+      rank: '300'
+      message-format: '&5[&b&lInstaThot&r&5]&d %player&f: %message'
+  VIP4:
+    inheritance:
+    - VIP3
+    permissions:
+    - chatex.allowchat
+    - chatex.chat*
+    - worldedit.*
+    - essentials.*
+    - plotme.*
+    options:
+      prefix: '&4[&6&lMo&bdel&r&4]&3&l'
+      rank: '200'
+      message-format: '&4[&6&lMo&bdel&r&4]&3&l %player&e: %message'
+  Admin:
+    inheritance:
+    - VIP4
+    permissions:
+    - chatex.allowchat
+    - chatex.chat*
+    - worldedit.*
+    - essentials.*
+    - plotme.*
+    - permissions.*
+    options:
+      prefix: '&0(&4Admin&0)&7 '
+      message-format: '&l&c&l[&b&lAdmin&c&l]&5 %player&e: %message'
+      rank: '100'
+  VIP1:
+    inheritance:
+    - Member
+    permissions:
+    - Chatex.allowchat
+    - modifyworld.*
+    - essentials.help
+    - plotme.use.*
+    - essentials.sethome
+    - essentials.home
+    - essentials.spawn
+    - essentials.afk
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    options:
+      prefix: '&9[CertifiedSlut]&f'
+      rank: '600'
+      message-format: '&9[CertifiedSlut]&f %player: %message'
+schema-version: 1
+users:
+  bc306d65-7303-4994-9728-7bfb411a2fb5:
+    group:
+    - Coal
+    options:
+      name: MythTrust
+  63029fc2-7b0e-4338-bf74-6040962a05d9:
+    group:
+    - Iron
+    options:
+      name: 0_TheRedRose_0
+  f1609ad6-a7ac-33f0-b420-4f88c11082ee:
+    group:
+    - VIP1
+    options:
+      name: MythTrust
